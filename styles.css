@@ -1,0 +1,73 @@
+body {
+  background-color: #03622d;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: small;
+  font-variant: small-caps;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: small;
+}
+
+.cash {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 50px;
+  width: 100%;
+  font-size: 17px;
+}
+
+button {
+  background-color: rgb(248, 221, 181);
+  font-variant: small-caps;
+  border: none;
+  border-radius: 10%;
+  color: #054020;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(253, 187, 81);
+}
+
+#betzone {
+  display: none;
+}
+
+#playzone {
+  display: none;
+}
+
+.inc-btn-container {
+  margin-top: 20px;
+}
+
+.inc-btn {
+  margin: 0px 2px 0px 2px;
+}
+
+.bet-btn {
+  margin-top: 20px;
+}
+
+#dealer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#play-btn-container {
+  margin-top: 20px;
+}
+
+#reset-container {
+  margin-top: 20px;
+  display: none;
+}
